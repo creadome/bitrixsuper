@@ -30,12 +30,10 @@
 				'PREVIEW_TEXT' => $arResult['VALUE']['text'],
 
 				'PROPERTY_VALUES' => array(
-					'CONTACT' => $arResult['VALUE']['contact'],
-					'PAGE' => $arParams['PAGE']
+					'CONTACT' => $arResult['VALUE']['contact']
 				)
 			))) {
 				if ($arParams['EVENT']) CEvent::Send($arParams['EVENT'], SITE_ID, array(
-					'PAGE' => $arParams['PAGE'],
 					'NAME' => $arResult['VALUE']['name'],
 					'CONTACT' => $arResult['VALUE']['contact'],
 					'TEXT' => $arResult['VALUE']['text']

@@ -14,20 +14,9 @@
 			'VALUES' => $arIBlocks
 		),
 
-		'TITLE' => array(
-			'TYPE' => 'STRING',
-			'NAME' => 'Заголовок формы'
-		),
-
 		'EVENT' => array(
 			'TYPE' => 'STRING',
 			'NAME' => 'Почтовое событие'
-		),
-
-		'PAGE' => array(
-			'TYPE' => 'STRING',
-			'NAME' => 'Страница',
-			'DEFAULT' => '={$_SERVER[\'REQUEST_URI\']}'
 		)
 	);
 ?>

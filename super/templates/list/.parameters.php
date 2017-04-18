@@ -14,7 +14,7 @@
 
 		'FILTER_NAME' => array(
 			'TYPE' => 'STRING',
-			'NAME' => 'Фильтр (имя переменной)'
+			'NAME' => 'Фильтр (массив)'
 		),
 
 		'SORT_BY' => array(
@@ -35,8 +35,7 @@
 
 		'COUNT' => array(
 			'TYPE' => 'STRING',
-			'NAME' => 'Количество элементов',
-			'DEFAULT' => 1
+			'NAME' => 'Количество элементов'
 		),
 
 		'CACHE_TIME' => array(
