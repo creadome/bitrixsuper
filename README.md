@@ -1,6 +1,6 @@
 # Супер компонент
 
-![Супер компонент](https://raw.github.com/creadome/bitrixsuper/master/custom/super/images/icon.gif)
+![Супер компонент](https://raw.githubusercontent.com/creadome/bitrixsuper/master/super/images/icon.gif)
 
 Универсальный компонент 1С-Битрикс для любых задач.
 
